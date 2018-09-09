@@ -37,7 +37,9 @@ nav a:hover {
 #me {
     
     position: absolute;
+    border: 4px solid white;
 }
+
 
 
 #welcometext {
@@ -66,7 +68,7 @@ td strong {
 
 ul {
     text-align: left;
-    padding-left: 200px;
+    padding-left: 340px;
 }
 
 #table-header {
@@ -78,9 +80,9 @@ ul {
 }
 
 .centerize {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  position: absolute;
+  top: 22%;
+ 
   
 }
 
