@@ -1,0 +1,32 @@
+a {
+    padding: 14px;
+}
+
+.imagebottom {
+    padding: 45px;
+}
+
+
+
+#goleft {
+    float: left;
+    padding: 30px;
+}
+
+
+
+#nobullet {
+    list-style: none;
+}
+
+#makelink {
+     cursor:pointer;
+     color:rgb(59,87,113);
+     text-decoration:underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    font-family: Open Sans;
+}
