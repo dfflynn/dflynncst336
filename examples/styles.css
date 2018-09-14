@@ -1,0 +1,20 @@
+
+.column {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    
+}
+
+div.column > span {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+div.column > div {
+    display: inline;
+    padding: 5px;
+}
+
