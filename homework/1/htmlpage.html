@@ -4,7 +4,7 @@
 <head>
 
 
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>
         Homework 1
     </title>
@@ -14,7 +14,11 @@
 </head>
 
 <body>
-
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
     <header>
         <div id="head">
             <h1 id="pageTitle" style="letter-spacing: 0.3em"><b>HTML</b></h1>
@@ -45,12 +49,12 @@
 
 
         <!-- &lt  &gt    -->
-        <img id="display" src="img/html.png" alt="html" width="450em" />
+        <img id="display" src="img/html.png" alt="html" />
         <div id="paragraphs">
             <br/>
             <p>HTML, or Hypertext Markup Language, is a standard markup language cotaining information on websites fetched by the browser. The elements described by an HTML document form the building blocks of a web page. Your browser does not directly,
-                show the contents of HTML, rather it uses the information within HTML to render the appropriate elements. On this page, the &ltb&gt tag is used to make the title at the top even more bold. A more complex tag that was used on this page
-                was &ltscript&gt. This was used for the functionality of the hamburger menu near the top-left of the page, so that it could animate and display the navigation menu.</p>
+                show the contents of HTML, rather it uses the information within HTML to render the appropriate elements. On this page, the &lt;b&gt; tag is used to make the title at the top even more bold. A more complex tag that was used on this page
+                was &lt;script&gt;. This was used for the functionality of the hamburger menu near the top-left of the page, so that it could animate and display the navigation menu.</p>
         </div>
 
 
@@ -71,11 +75,7 @@
 </html>
 
 
-<script>
-    function myFunction(x) {
-        x.classList.toggle("change");
-    }
-</script>
+
 
 
 <!-- new tags are script and b, css is white space transform -->
