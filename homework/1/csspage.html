@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <meta char=”utf-8” />
+    <title>
+        Homework 1
+    </title>
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="head">
+            <h1 id="pageTitle" style="letter-spacing: 0.3em"><b>CSS</b></h1>
+
+            <div class="container" onclick="myFunction(this)" style="margin: 20px">
+                <nav>
+                    <ul id="collapsing">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="htmlpage.html">HTML</a></li>
+                        <li><a href="csspage.html">CSS</a></li>
+                        <li><a href="browserpage.html">Browsers</a></li>
+                    </ul>
+                </nav>
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+
+            </div>
+
+
+        </div>
+    </header>
+
+
+
+    <main>
+
+
+
+
+        <img id="displaySquare" src="img/css.jpg" alt="css" />
+        <div id="paragraphs">
+            <br/>
+            <p>CSS is the language which transforms the descriptive HTML document, styles it, and makes it look how the programmer wants it to. Where HTML says that an image exists, CSS says how big it is, or if it has a border.
+            In this page, there exists the transform property, which is used along with scripting to perform animations on the web page. This was used to create the hamburger menu animations upon being clicked. On this page there also exists the word-wrap and white-space properties. These are used to properly display text wrapping for the paragraphs you are reading right now. The reason why there are two of them (used three times in the code), is due to the fact that different browsers display certain elements differently. Learn more about these differences on the Browsers page.</p>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+
+        <hr width="100%"> CST 336. 2018&copy; Flynn
+
+
+    </footer>
+
+
+</body>
+
+
+</html>
+
+
+<script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
+</script>
+
+
+<!-- new tags are script and , css is white space transform -->

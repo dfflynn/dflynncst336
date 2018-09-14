@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <meta char=”utf-8” />
+    <title>
+        Homework 1
+    </title>
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="head">
+            <h1 id="pageTitle" style="letter-spacing: 0.3em"><b>Elements of a Web Page</b></h1>
+
+            <div class="container" onclick="myFunction(this)" style="margin: 20px">
+                <nav>
+                    <ul id="collapsing">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="htmlpage.html">HTML</a></li>
+                        <li><a href="csspage.html">CSS</a></li>
+                        <li><a href="browserpage.html">Browsers</a></li>
+                    </ul>
+                </nav>
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+
+            </div>
+
+
+        </div>
+    </header>
+
+
+
+    <main>
+
+
+
+
+        <img id="displaySquare" src="img/comp.jpg" alt="technology" />
+        <div id="paragraphs">
+            <br/>
+            <p>HTML & CSS are integral to the way we interact with technology every day. Turning complex code into aesthetically pleasing, and functional web design, modern life essentially revolves around the hidden work done by these coding tools for your
+                browser.
+                <br/> Use the navigation menu near the top of the page to have a closer look at the components that make up how your browser puts together a website for you to view.</p>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+
+        <hr width="100%"> CST 336. 2018&copy; Flynn
+
+
+    </footer>
+
+
+</body>
+
+
+</html>
+
+
+<script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
+</script>
+
+
+<!-- new tags are script and , css is white space transform -->

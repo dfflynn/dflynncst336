@@ -1,0 +1,128 @@
+body {
+    background-color: black;
+    margin: 0;
+
+}
+
+
+#head {
+    background-color: rgb(185, 52, 45);
+    color: white;
+    font-family: Roboto;
+
+
+
+
+}
+
+
+
+
+#displaySquare {
+    margin-left: 5%;
+    margin-top: 45px;
+    float: left;
+    border: 2px solid white;
+    width: 35%;
+}
+
+#display {
+    width: 25%;
+}
+
+
+#paragraphs {
+    color: white;
+    font-family: Roboto;
+    position: absolute;
+    margin-left: 45%;
+    margin-right: 15%;
+    top: 30%;
+    word-wrap: break-word;
+    /* IE 5.5-7 */
+    white-space: -moz-pre-wrap;
+    /* Firefox 1.0-2.0 */
+    white-space: pre-wrap;
+    /* current browsers */
+}
+
+#pageTitle {
+    text-align: center;
+    padding-top: 1em;
+}
+
+
+#collapsing {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    opacity: 0;
+    transition: 0.3s;
+    bottom: 0px;
+    position: relative;
+
+}
+
+li {
+    float: left;
+    padding-left: 5em;
+    font-size: 160%;
+    border: 10px solid transparent
+}
+
+a {
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
+}
+
+footer {
+    color: white;
+    position: fixed;
+    bottom: 0%;
+
+}
+
+.change #collapsing {
+    opacity: 100;
+
+}
+
+
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}

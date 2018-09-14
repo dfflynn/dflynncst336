@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <meta char=”utf-8” />
+    <title>
+        Homework 1
+    </title>
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="head">
+            <h1 id="pageTitle" style="letter-spacing: 0.3em"><b>HTML</b></h1>
+
+            <div class="container" onclick="myFunction(this)" style="margin: 20px">
+                <nav>
+                    <ul id="collapsing">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="htmlpage.html">HTML</a></li>
+                        <li><a href="csspage.html">CSS</a></li>
+                        <li><a href="browserpage.html">Browsers</a></li>
+                    </ul>
+                </nav>
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+
+            </div>
+
+
+        </div>
+    </header>
+
+
+
+    <main>
+
+
+
+        <!-- &lt  &gt    -->
+        <img id="display" src="img/html.png" alt="html" width="450em" />
+        <div id="paragraphs">
+            <br/>
+            <p>HTML, or Hypertext Markup Language, is a standard markup language cotaining information on websites fetched by the browser. The elements described by an HTML document form the building blocks of a web page. Your browser does not directly,
+                show the contents of HTML, rather it uses the information within HTML to render the appropriate elements. On this page, the &ltb&gt tag is used to make the title at the top even more bold. A more complex tag that was used on this page
+                was &ltscript&gt. This was used for the functionality of the hamburger menu near the top-left of the page, so that it could animate and display the navigation menu.</p>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+
+        <hr width="100%"> CST 336. 2018&copy; Flynn
+
+
+    </footer>
+
+
+</body>
+
+
+</html>
+
+
+<script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
+</script>
+
+
+<!-- new tags are script and b, css is white space transform -->
