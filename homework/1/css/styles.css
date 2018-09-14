@@ -31,6 +31,7 @@ hr {
 
 #display {
     width: 25%;
+    margin-left: 5%;
 }
 
 
@@ -74,12 +75,14 @@ li {
     border: 10px solid transparent
 }
 
-a {
+#navlink {
     color: inherit;
     /* blue colors for links too */
     text-decoration: inherit;
     /* no underline */
 }
+
+
 
 footer {
     color: white;
@@ -128,4 +131,16 @@ footer {
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+#source {
+    color: white;
+    bottom: 10%;
+    right: 10%;
+    font-style: underline;
+    position: absolute;
+    font-family: Roboto;
+    
+    
 }
