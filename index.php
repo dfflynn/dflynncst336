@@ -9,7 +9,7 @@
 <body>
     <ul>
         <li><a href = "./homework/1">Homework 1</a></li>
-        <li><a href = "./labs/lab1">Lab 1</a></li>
+        <li><a href = "./labs/lab1/portfolio">Lab 1</a></li>
     </ul>
    
     
