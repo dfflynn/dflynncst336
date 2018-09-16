@@ -17,8 +17,10 @@
         width:600px;
         height:500px;
         position:relative;
+        
         margin:0 auto;
     }
+    
     
     #reel1, #reel2, #reel3 {
         top:248px;
