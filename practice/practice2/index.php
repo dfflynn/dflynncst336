@@ -10,6 +10,7 @@
             text-align: center;
         }
 
+        
         .row {
             display: flex;
             justify-content: center;
@@ -37,6 +38,12 @@
     </style>
 </head>
 
+<script>
+function refreshPage(){
+    window.location.reload();
+} 
+</script>
+
 <body>
 
 
@@ -54,6 +61,7 @@
         </div>
     </div>
     
+    <button type="submit"  onClick="refreshPage()">Play Again!</button>
     
     <?php
     
