@@ -11,6 +11,8 @@
         <li><a href = "./homework/1">Homework 1</a></li>
         <li><a href = "./labs/lab1/portfolio">Lab 1</a></li>
         <li><a href = "./labs/lab2/777">Lab 2</a></li>
+        <li><a href = "./practice/practice1/">Practice Lab 1</a></li>
+        <li><a href = "./practice/practice2">Practice Lab 2</a></li>
     </ul>
    
     
