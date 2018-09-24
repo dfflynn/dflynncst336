@@ -65,14 +65,9 @@ function refreshPage(){
     
     <?php
     
-    
     $randomValue;
     $randomValue1;
     $p1Score = 0;
-    
-    
-   
-    
     
     for($t = 0;$t < 3;$t++) {
         if(randChoice() == 1) {
