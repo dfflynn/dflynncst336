@@ -10,7 +10,7 @@
     <body>
 
         <div align = "center" id = "header">
-             <img src="toelogo.png" alt="logo" id = "headerimg"> 
+            <img src="toelogo.png" alt="logo" id = "headerimg"> 
         </div>
         
 

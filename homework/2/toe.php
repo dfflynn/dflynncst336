@@ -12,6 +12,7 @@ function run() {
         $winner = 0;
         
         $player = 1;
+        //The play function is ran up to 9 times, alternating players. If a winner is found, the game ends and winner is declared.
         for($i = 0;$i < 9;$i++) {
            play($grid, $player);
            if($player == 1) {
@@ -29,8 +30,10 @@ function run() {
         
         
         
-        
+        //The modify function turns the array into something that looks like tic tac toe.
         modify($grid);
+        
+        //This loop prints the table that is used to represent the game.
         for($t = 0;$t < 3;$t++) {
             
             echo "<table><tr><td>";
@@ -45,10 +48,9 @@ function run() {
        
        
        
-       
-        //printArray($grid);
         
         
+        //After the winner is found, the winner is echoed under the board.
         if($winner == 1) {
             echo "<h1 id = 'winner'>The winner is X</h1>";
         }
@@ -71,36 +73,35 @@ function run() {
         
 }
 
-
+//This function is a leftover from testing
 function printArray($arr) {
             for($a = 0;$a < 3;$a++) {
                 for($b = 0;$b < 3;$b++) {
                     echo $arr[$a][$b];
                     echo " ";
-                    
-            }
+                    }
             echo "<br>";
             }
         }
         
-        
-        function modify(&$arr) {
-            for($a = 0;$a < 3;$a++) {
-                    for($b = 0;$b < 3;$b++) {
-                        if($arr[$a][$b] == 0) {
-                            $arr[$a][$b] = " ";
-                        }
-                        else if($arr[$a][$b] == 1) {
-                            $arr[$a][$b] = "X";
-                        }
-                        else if($arr[$a][$b] == 2) {
-                            $arr[$a][$b] = "O";
-                        }
-                    
-                    }
-                }
+//this function changes the grid from numbers, to Xs and Os.
+function modify(&$arr) {
+    for($a = 0;$a < 3;$a++) {
+        for($b = 0;$b < 3;$b++) {
+            if($arr[$a][$b] == 0) {
+                $arr[$a][$b] = " ";
+            }
+            else if($arr[$a][$b] == 1) {
+                $arr[$a][$b] = "X";
+            }
+            else if($arr[$a][$b] == 2) {
+                $arr[$a][$b] = "O";
+            }
         }
+    }
+}
         
+        //This function goes through the array, checking if someone won, then returning that winner
         function winCheck($arr) {
             //Vertical
             if($arr[0][0] != 0) {
@@ -154,7 +155,7 @@ function printArray($arr) {
         
         
         
-        
+        //The play function finds a random, valid spot, and makes their move there.
         function play(&$arr, $player) {
             
             $done = 0;
