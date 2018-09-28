@@ -1,0 +1,58 @@
+td {
+    border: 3px solid #5a94ff;
+}
+
+body {
+    border-right: 250px solid #5a94ff;
+    border-left: 250px solid #5a94ff;
+}
+
+tr {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+td {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+#grid {
+    
+    
+    width: auto;
+    margin: auto;
+    
+    
+    font-size: 55px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(135,0,0);
+    display: block;
+    
+}
+
+#trophy {
+    width: 150px;
+    
+}
+
+#header {
+    margin: auto;
+    
+    
+}
+
+#headerimg {
+    width: 300px;
+    margin: auto;
+}
+
+
+
+#winner {
+    color: black;
+    font-size: 35px;
+    font-family: 'Acme', sans-serif;
+}
