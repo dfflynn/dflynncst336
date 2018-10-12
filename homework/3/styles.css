@@ -1,0 +1,70 @@
+
+
+.centerborder {
+    margin: 0 auto;
+    width: 30%;
+    border:solid black 2px;
+    padding:10px;
+    
+    
+}
+
+
+h2 {
+    font-family: 'Niramit', sans-serif;
+}
+
+input {
+    font-family: 'Niramit', sans-serif;
+    font-size: 100%;
+}
+
+#result {
+    font-family: 'Niramit', sans-serif;
+    line-height: 19px;
+}
+
+
+.logo {
+    width: 325px;
+    margin-left: 5%;
+    
+}
+
+#apple {
+    width: 180px;
+    margin-left: 10%;
+}
+
+#google {
+    margin-left: 10%;
+}
+
+#oracle {
+    margin-left: 7%;
+    margin-bottom: 30px;
+}
+
+
+select {
+    font-family: 'Niramit', sans-serif;
+}
+
+textarea {
+    font-family: 'Niramit', sans-serif;
+    font-size: 90%;
+    line-height: 18px;
+}
+
+.contents {
+    padding: 1px;
+    font-family: 'Niramit', sans-serif;
+}
+
+
+
+
+.centertext {
+    text-align: center;
+}
+
