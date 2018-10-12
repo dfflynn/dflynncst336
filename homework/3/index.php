@@ -82,11 +82,16 @@ if(isset($_POST['box4'])) {
         <h2 class = "centertext">Your Resume:</h2>
         <div class = "centerborder" id = "result">
             <div>
-                My name is <?php echo $_POST['name']?>.
-            
                 <?php 
+                echo "My name is ";
+                echo $_POST['name'];
+            
+                
                 if($_POST['name'] == "") {
                     echo "<b style= 'color:red'>ERROR: no name found</b>";
+                }
+                else {
+                    echo "." ;
                 }
                 ?>
             </div>
@@ -156,7 +161,9 @@ if(isset($_POST['box4'])) {
                 <?php
                 echo "I am first available to work on ";
                 echo $_POST['date'];
-                echo ".";
+                if($_POST['date'] != "") {
+                    echo ".";
+                }
                 if($_POST['date'] == "") {
                     echo "<b style= 'color:red'>ERROR: no date selected</b>";
                 }
