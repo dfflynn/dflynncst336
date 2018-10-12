@@ -149,6 +149,7 @@ if(isset($_POST['box4'])) {
                     echo $skills[2];
                     echo " and ";
                     echo $skills[3];
+                    echo ".";
                 }
                 ?>
             </div>
